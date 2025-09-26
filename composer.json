@@ -1,5 +1,5 @@
 {
-    "name": "stepanenko3/nova-json",
+    "name": "shopstable/nova-json",
     "description": "Nova json field to spread a json column throughout multiple fields.",
     "type": "package",
     "license": "MIT",
@@ -11,8 +11,8 @@
     ],
     "authors": [
         {
-            "name": "Artem Stepanenko",
-            "email": "stpnnk.artem@gmail.com"
+            "name": "Shopstable",
+            "email": "support@shopstable.com"
         }
     ],
     "require": {
@@ -27,13 +27,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "Stepanenko3\\NovaJson\\": "src/"
+            "Shopstable\\NovaJson\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Stepanenko3\\NovaJson\\FieldServiceProvider"
+                "Shopstable\\NovaJson\\FieldServiceProvider"
             ]
         }
     }

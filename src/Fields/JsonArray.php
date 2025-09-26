@@ -1,6 +1,6 @@
 <?php
 
-namespace Stepanenko3\NovaJson\Fields;
+namespace Shopstable\NovaJson\Fields;
 
 use Laravel\Nova\Fields\Field;
 use Laravel\Nova\Fields\SupportsDependentFields;
